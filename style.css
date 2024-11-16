@@ -1,0 +1,441 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* umumiy container 2 chetidan surish uchun */
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/* project 1 sahifa */
+
+.home {
+    width: 100%;
+    height: 100vh;
+}
+
+/* navbar styles */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    left: 0px;
+    color: white;
+    margin-top: 20px;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+.menu-item {
+    list-style-type: none;
+    font-size: 30px;
+}
+
+ .logo {
+    width: 50px;
+}
+
+.home .bg_img {
+   width: 100%;
+   max-height: 100%;
+    position: absolute;
+}
+
+.color {
+    width: 100%;
+    background-color: hwb(0 15% 82% / 0.493);
+    position: absolute;
+    z-index: 0;
+    color: white;
+    bottom: 0;
+    top: 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+.color p {
+    margin-top: 400px;
+}
+
+/* about 2-sahifaning stillari */
+
+.about {
+    max-width: 100%;
+    padding-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.952);
+}
+
+.theme {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.text  {
+    color: white;
+    font-size: 50px;
+    font-family: serif;
+    padding-top: 50px;
+}
+
+.solid {
+    width: 70%;
+    height: 2px;
+    background-color: orange;
+    margin-top: 80px;
+}
+
+/* asosiy sahifadagi stillar */
+
+.page {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.page p {
+    color: white;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+
+.imgss {
+    display: flex;
+    gap: 20px;
+}
+
+.big_img {
+    width: 50%;
+}
+
+.big_img img {
+    width: 100%;
+}
+.asosiy {
+    display: flex;
+
+    margin-top: 30px;
+}
+
+/* 3-sahifa stillari project3 */
+
+.theme2 {
+    width: 100%;
+    display: flex;
+    gap: 25px;
+    padding-top: 50px;
+}
+
+.text2 p {
+    color: white;
+    font-size: 50px;
+    font-family: serif;
+    padding-top: 50px;
+}
+
+.solid2 {
+    width: 57%;
+    height: 2px;
+    background-color: orange;
+    margin-top: 80px;
+}
+
+.page2 {
+    width: 100%;
+}
+
+.images1 {
+    display: flex;
+    padding-top: 20px;
+}
+
+.imgs1 {
+    width: calc(100%/4 - 20px);
+    margin: 10px;
+}
+
+.imgs1 img {
+    width: 100%;
+}
+
+.imgs1 p {
+    text-align: center;
+}
+
+
+.project3 {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.952);
+}
+
+.page2 p {
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.project4 {
+    padding-top: 100px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.952);
+}
+
+.theme4 p {
+    width: 100%;
+    color: white;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.solid4 {
+    width: 10%;
+    height: 2px;
+    background-color: orange;
+    margin-top: 10px;
+}
+
+.imgg {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.imgg1{
+    width: calc(100%/3 - 20px);
+    padding: 10px;
+}
+
+.imgg1 img {
+    width: 100%;
+}
+
+/* 5proyekt stillari */
+
+.project5 {
+    padding-top: 100px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.952);
+}
+
+.theme5 {
+    display: flex;
+    gap: 30px;
+}
+
+.text5 p {
+    width: 100%;
+    color: white;
+    font-size: 50px;
+}
+
+.solid5 {
+    width: 58%;
+    height: 2px;
+    background-color: orange;
+    margin-top: 30px;
+}
+
+/* 6 proyekt stillari */
+
+.project6 {
+    padding-top: 100px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.952);
+}
+
+.theme6 {
+    display: flex;
+    gap: 20px;
+}
+
+.text6 p {
+    width: 100%;
+    color: white;
+    font-size: 50px;
+}
+
+.solid6 {
+    width: 70%;
+    height: 2px;
+    background-color: orange;
+    margin-top: 30px;
+}
+
+.small_theme p {
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.small_solid {
+    width: 6%;
+    height: 2px;
+    background-color: orange;
+    margin-top: 20px;
+}
+
+.small_text p {
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.card1 {
+    width: calc(100%/3 - 40px);
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: 2px solid orange;
+    margin-right: 20px;
+}
+
+.card1 .mavzu {
+    width: 100%;
+    color: orange;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.card1 .matn {
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.card1 button {
+    width: 70%;
+    height: 40px;
+    background-color: orange;
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+/* 7 proyekt stillari */
+
+.project7 {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.952);
+}
+
+.theme7 {
+    width: 100%;
+    display: flex;
+}
+
+.text7 p {
+     color: white;
+     font-size: 50px;
+}
+
+.solid7 {
+    width: 66%;
+    height: 2px;
+    background-color: orange;
+    margin-top: 32px;
+    margin-left: 25px;
+}
+
+.tekst {
+    color: white;
+    font-size: 35px;
+    margin-top: 70px;
+}
+
+.page_bottom {
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.page_left {
+    width: calc(100%/2 - 60px);
+    margin-top: 25px;
+}
+
+.text_right p {
+    color: white;
+    font-size: 35px;
+}
+
+.solid_right {
+    width: 12%;
+    height: 2px;
+    background-color: orange;
+}
+
+.input {
+    width: 1005;
+    margin-top: 60px;
+}
+
+.first_input {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.952);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid orange;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.second_input {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.952);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid orange;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.comment {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.952);
+    margin: 20px;
+    font-size: 25px;
+}
+
+.yuborish {
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
